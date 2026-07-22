@@ -1,2 +1,4 @@
-squares = [1, 4, 9, 16, 25]
-print(squares+[36, 49, 64, 81, 100])
+cubes = [1, 8, 27, 65, 125]  # something's wrong here
+4 ** 3  # the cube of 4 is 64, not 65!
+cubes[3] = 64  # replace the wrong value
+print(cubes)
